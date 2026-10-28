@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-28T18:50:28 IST" name="Proton Mail Regression Suite" finished-at="2026-10-28T18:59:44 IST" duration-ms="556131">
+    <groups>
+    </groups>
+    <test started-at="2026-10-28T18:50:28 IST" name="Proton Mail Functional Tests" finished-at="2026-10-28T18:59:44 IST" duration-ms="556131">
+      <class name="ProtonMailTest.ProtonMailFuntionalTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:50:28 IST" name="setup" finished-at="2026-10-28T18:51:02 IST" duration-ms="34421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC1_NavigateToProtonMail()[pri:1, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:51:02 IST" name="TC1_NavigateToProtonMail" finished-at="2026-10-28T18:51:10 IST" duration-ms="7618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_NavigateToProtonMail -->
+        <test-method signature="TC2_OpenLoginPage()[pri:2, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:51:10 IST" name="TC2_OpenLoginPage" finished-at="2026-10-28T18:51:13 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC1_NavigateToProtonMail" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_OpenLoginPage -->
+        <test-method signature="TC3_SignInValidation(java.lang.String,java.lang.String)[pri:3, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:51:13 IST" name="TC3_SignInValidation" data-provider="loginData" finished-at="2026-10-28T18:51:18 IST" duration-ms="5388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lekhana@proton.me]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_SignInValidation -->
+        <test-method signature="TC4_NavigatingToInbox()[pri:4, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:51:18 IST" name="TC4_NavigatingToInbox" finished-at="2026-10-28T18:52:04 IST" duration-ms="46426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_NavigatingToInbox -->
+        <test-method signature="TC7_ComposeAndSendMail()[pri:7, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:52:04 IST" name="TC7_ComposeAndSendMail" finished-at="2026-10-28T18:52:10 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="5796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7_ComposeAndSendMail -->
+        <test-method signature="TC8_DraftAutoSave()[pri:8, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:52:10 IST" name="TC8_DraftAutoSave" finished-at="2026-10-28T18:52:28 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="17514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_DraftAutoSave -->
+        <test-method signature="TC9_DraftAfterRefresh()[pri:9, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:52:28 IST" name="TC9_DraftAfterRefresh" finished-at="2026-10-28T18:52:45 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="17720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_DraftAfterRefresh -->
+        <test-method signature="TC10_ReopenAndEditDraft()[pri:10, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:52:45 IST" name="TC10_ReopenAndEditDraft" finished-at="2026-10-28T18:53:29 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="43201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_ReopenAndEditDraft -->
+        <test-method signature="TC11_DiscardDraft()[pri:11, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:53:29 IST" name="TC11_DiscardDraft" finished-at="2026-10-28T18:53:52 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="23546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_DiscardDraft -->
+        <test-method signature="TC12_DraftToSent()[pri:12, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:53:52 IST" name="TC12_DraftToSent" finished-at="2026-10-28T18:54:34 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="41974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_DraftToSent -->
+        <test-method signature="TC13_OpenAndMarkUnread()[pri:13, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:54:34 IST" name="TC13_OpenAndMarkUnread" finished-at="2026-10-28T18:55:07 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="32920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_OpenAndMarkUnread -->
+        <test-method signature="TC14_StarMessage()[pri:14, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:55:07 IST" name="TC14_StarMessage" finished-at="2026-10-28T18:55:44 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="36594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_StarMessage -->
+        <test-method signature="TC16_TrashAndRestore()[pri:16, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:55:44 IST" name="TC16_TrashAndRestore" finished-at="2026-10-28T18:56:23 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="39069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_TrashAndRestore -->
+        <test-method signature="TC17_BulkTrash()[pri:17, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:56:23 IST" name="TC17_BulkTrash" finished-at="2026-10-28T18:57:26 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="63471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_BulkTrash -->
+        <test-method signature="TC18_SearchByKeyword()[pri:18, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:57:26 IST" name="TC18_SearchByKeyword" finished-at="2026-10-28T18:58:05 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="39133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_SearchByKeyword -->
+        <test-method signature="TC19_SearchNoResult()[pri:19, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:58:05 IST" name="TC19_SearchNoResult" finished-at="2026-10-28T18:58:13 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="7823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_SearchNoResult -->
+        <test-method signature="TC20_GoToFliter()[pri:20, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:58:13 IST" name="TC20_GoToFliter" finished-at="2026-10-28T18:58:20 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="6805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_GoToFliter -->
+        <test-method signature="TC21_CreatingFliter()[pri:21, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:58:20 IST" name="TC21_CreatingFliter" finished-at="2026-10-28T18:58:28 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC20_GoToFliter" duration-ms="8090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_CreatingFliter -->
+        <test-method signature="TC22_deleteFliter()[pri:22, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:58:28 IST" name="TC22_deleteFliter" finished-at="2026-10-28T18:58:32 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC21_CreatingFliter" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_deleteFliter -->
+        <test-method signature="TC23_Attachment_Functionality()[pri:23, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:58:32 IST" name="TC23_Attachment_Functionality" finished-at="2026-10-28T18:59:08 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="35673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23_Attachment_Functionality -->
+        <test-method signature="TC24_UndoSend_Functionality()[pri:24, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:59:08 IST" name="TC24_UndoSend_Functionality" finished-at="2026-10-28T18:59:37 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="29721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_UndoSend_Functionality -->
+        <test-method signature="TC6_SignOutFromProtonMail()[pri:26, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:59:37 IST" name="TC6_SignOutFromProtonMail" finished-at="2026-10-28T18:59:41 IST" depends-on-methods="ProtonMailTest.ProtonMailFuntionalTesting.TC4_NavigatingToInbox" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_SignOutFromProtonMail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ProtonMailTest.ProtonMailFuntionalTesting@4e3958e7]" started-at="2026-10-28T18:59:41 IST" name="teardown" finished-at="2026-10-28T18:59:44 IST" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ProtonMailTest.ProtonMailFuntionalTesting -->
+    </test> <!-- Proton Mail Functional Tests -->
+  </suite> <!-- Proton Mail Regression Suite -->
+</testng-results>
